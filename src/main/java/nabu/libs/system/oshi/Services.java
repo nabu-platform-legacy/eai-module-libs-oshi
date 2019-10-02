@@ -40,7 +40,7 @@ public class Services {
 		return getHardware().getMemory();
 	}
 	
-	@WebResult(name = "memory")
+	@WebResult(name = "processor")
 	public CentralProcessor processor() {
 		return getHardware().getProcessor();
 	}
