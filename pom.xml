@@ -47,7 +47,13 @@
 		<dependency>
 		    <groupId>com.github.oshi</groupId>
 		    <artifactId>oshi-core</artifactId>
-		    <version>4.0.0</version>
+		    <version>5.8.3</version>
 		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
 	</dependencies>
 </project>

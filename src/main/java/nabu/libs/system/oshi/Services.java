@@ -1,7 +1,6 @@
 package nabu.libs.system.oshi;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import javax.jws.WebResult;
@@ -52,7 +51,7 @@ public class Services {
 	
 	@WebResult(name = "disks")
 	public List<HWDiskStore> disks() {
-		return Arrays.asList(getHardware().getDiskStores());
+		return getHardware().getDiskStores();
 	}
 	
 	@WebResult(name = "load")
